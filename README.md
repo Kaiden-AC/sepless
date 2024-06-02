@@ -1,13 +1,18 @@
-# seposfun
-#### A collection of tools for booting NonUI on Apple devices without loading SEPOS.
-iOS can't and won't be supported, ever.
+# sepless
 
-# Tools
-iPatcher - iBoot patcher for older iOS versions.
+This project is a modified version of sepless from the seposfun repository. All patches have been removed except the one that patches the "AppleSEPBooter bootSEP" string.
 
-keybagd_bypass - Hello world program to replace /usr/libexec/keybagd.
+## Building
 
-sepless - Automated tool to patch out SEPOS and AppleKeyStore from the kernel. 10.0->11.4.1 are supported.
+```
+gcc src/sepless.c -o sepless
+```
 
-# Credits
-xerub - patchfinder64
+## Credits
+
+- **@exploit3dguy** and **@plzdonthaxme** for the original seposfun repository.
+- **@xerub** for making the patchfinder64 tool, which is used in this project for kernelcache patching.
+
+## License
+
+This project is covered under the GPL v3 license, in accordance with the original seposfun repository. See the [LICENSE](LICENSE) file for details.
