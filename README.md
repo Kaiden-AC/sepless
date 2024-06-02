@@ -1,6 +1,6 @@
 # sepless
 
-This project is a modified version of sepless from the seposfun repository. All patches have been removed except the one that patches the "AppleSEPBooter bootSEP" string.
+This project is a modified version of sepless from the seposfun repository. All patches have been removed except the one that patches the 'AppleSEPBooter bootSEP' function.
 
 ## Building
 
