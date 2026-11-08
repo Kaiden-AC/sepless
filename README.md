@@ -5,7 +5,7 @@ This project is a modified version of sepless from the seposfun repository. All 
 ## Building
 
 ```
-clang src/sepless.c -o sepless
+make
 ```
 
 ## Credits
